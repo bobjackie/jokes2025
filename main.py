@@ -24,17 +24,18 @@ def jokelist(robbers, tanks, pencils):
             input("Nevermind, it's pointless! ")
             joke = input("Do you want to hear another joke or are you finished? ")
     if joke == "finished":
-        rate = int(input("Please rate our game 1-10! "))
-        final_score = int(rate * 10)
-        print(str(final_score) + " percent satisfaction rate")
+        score = int(input("Rate the game 1-10"))
+        print(str(score * 10) + " % out of 100%")
        
 def satistifaction():
-        satistifaction = input("Did you enjoy the jokes? ")
+    answer = input("Did you enjoy the funny jokes? (yes/no)").lower()
 
-        userinput= input("Please enter 'yes' or 'no': ").lower()
-        if satistifaction == "yes":
-            return "Yay! We are glad you enjoyed it!"
-        elif satistifaction == "no":
-            return "We're sorry you didn't enjoy it.".upper()
-        else:
-            return "Invalid response. Please answer with 'yes' or 'no'."
+    if answer =="yes":
+        return "Yay! W manz"
+    elif answer =="no":
+        return "Bruh"
+    else:
+        return "idiot its a yes or no answer."
+    
+
+print (jokelist)
