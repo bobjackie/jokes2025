@@ -28,13 +28,13 @@ def outcomes():
     question = input("What joke do you choose? Jokes" + str(namesofjokes) + ": ")
     if question == "robbers":
             rob()
-            newList=  namesofjokes.remove("robbers")
+           
     elif question == "tanks":
             tank()
-            newList= namesofjokes.remove("tanks")
+           
     elif question == "pencils":
         pen()
-        newList=  namesofjokes.remove("robbers")
+      
     else:
         print("That joke does not exist.")
 # These fucntions are what the, after the user picks a joke, will display
