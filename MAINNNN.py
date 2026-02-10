@@ -12,7 +12,7 @@ def rob():
 def pen():
     input("Knock Knock... ")
     input("Broken pencil... ")
-    print("Nevermind, it's pointless!")
+    print("Nevermind, it's pointless!") 
     namesofjokes.remove("pencils")
 
 def tank():
@@ -55,7 +55,7 @@ def satisfaction(answer): # the answer parameter makes it so that in the program
 print("Welcome to 6036 s kolmar ave, where we joke!")
 def main2(listofjokes=namesofjokes):
     while True:  # will make it so that the code can loop again if they user says they want to hear another joke
-        namesofjokes = ["robbers", "tanks", "pencils"]
+  
         joke = input("Do you want to hear a joke? yes or no: ")
 
         if joke == "no":
